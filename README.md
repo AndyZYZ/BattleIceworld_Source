@@ -1,12 +1,18 @@
-myFps
+###BattleIceworld
 
-This is a small fps game that I created to learn Unity3d.
+This is a small fps game that I created to learn Unity3d.  
 
-It is under construction now.
+I use an FPS add on called UFPS to constuct the basic strcture of the game.
 
-I will inform you when the game is ready to be played in this README.
+It can provide a basic game experience now.
+
+You can find the game [here](https://github.com/AndyZYZ/BattleIceworld_game.git).
+
+It still has some bugs like AI firing through walls.
 
 I will continue update the game when I've learned somethning new about Unity3d.
 
 Hope you guys will enjoy it.
+
+
 
