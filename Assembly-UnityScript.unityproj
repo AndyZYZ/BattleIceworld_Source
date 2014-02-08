@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\customScripts\onGameStart.js" />
+     <Compile Include="Assets\customScripts\startmenu.js" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolSlideFast.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
      <None Include="Assets\UltimateFPS\Scripts\Presets\AI\Soldier\Roaming.txt" />

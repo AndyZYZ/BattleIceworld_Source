@@ -29,6 +29,12 @@ public class vp_FPPlayerEventHandler : vp_StateEventHandler
 	// can search the project for the event name preceded by '.' (.Reload)
 	//  3) to find the methods that LISTEN to an event, search the project
 	// for its name preceded by '_' (_Reload)
+    
+	//Kill count
+	public vp_Message AddKillCount;
+
+	//load my pistol at start
+	public vp_Message LoadMyPistol;
 
 	// gui
 	public vp_Message<float> HUDDamageFlash;

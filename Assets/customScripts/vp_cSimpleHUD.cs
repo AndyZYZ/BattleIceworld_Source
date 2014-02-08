@@ -42,19 +42,16 @@ public class vp_cSimpleHUD : MonoBehaviour
 	private vp_FPPlayerEventHandler m_Player = null;
 
 	//get turretkilled message
-	private int killNum = 0;
+	 //private int killNum = 0;
 
 	void Start () {
 
-//		vp_cDamageHandler ev = GameObject.Find ("cSimpleAITurret").GetComponent<vp_cDamageHandler>();
-	//	ev.turretKilled += AddTurretKillNum;
+		Screen.showCursor = false;
 
 	}
 
-	void AddTurretKillNum(){
+	//void AddKillNum(){
 
-		killNum++;
-	}
 
 
 	/// <summary>
@@ -63,8 +60,19 @@ public class vp_cSimpleHUD : MonoBehaviour
 	void Awake()
 	{
 		m_Player = transform.GetComponent<vp_FPPlayerEventHandler>();
+
+
 	}
 
+	//void Update() {
+		//KillCount ev = GameObject.FindGameObjectWithTag("enemy").GetComponent<KillCount>();
+		//ev.enemyKilled	 += AddKillNum;
+	//}
+    
+	//void Update() {
+		//KillCount ev = transform.GetComponent<KillCount>();
+		//ev.enemyKilled	 += AddKillNum;
+	//}
 
 	/// <summary>
 	/// registers this component with the event handler (if any)
@@ -99,14 +107,17 @@ public class vp_cSimpleHUD : MonoBehaviour
 	protected virtual void OnGUI()
 	{
 		//display killnum
-		GUILayout.Label("Turret killed : "+killNum);
+
 	   //
 
 
 		if (!ShowHUD) 
 			return;
 
-		// display a simple 'Health' HUD
+		//display kill count
+		//GUILayout.Label("Soldier killed: "+(m_Player.GetItemCount.Send("EnemyKill")));
+		//GUILayout.Label("Soldier killed : "+killNum);
+		 // display a simple 'Health' HUD
 		GUI.Box(new Rect(10, Screen.height - 30, 100, 22), "Health: " + (int)(m_Player.Health.Get() * 100.0f) + "%");
 
 		// display a simple 'Pistol' HUD

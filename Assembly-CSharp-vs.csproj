@@ -201,7 +201,10 @@
      <Compile Include="Assets\UltimateFPS\Scripts\Gameplay\AI\Plugins\vp_AIPlaceOnGround.cs" />
      <Compile Include="Assets\UltimateFPS\Scripts\Gameplay\AI\Plugins\vp_AIPlugin.cs" />
      <Compile Include="Assets\UltimateFPS\Scripts\Gameplay\AI\Plugins\vp_AISenses.cs" />
-     <Compile Include="Assets\customScripts\killCount.cs" />
+     <Compile Include="Assets\customScripts\ExitOnDead.cs" />
+     <Compile Include="Assets\customScripts\KillCount.cs" />
+     <Compile Include="Assets\customScripts\loadmypistol.cs" />
+     <Compile Include="Assets\customScripts\startmenu.cs" />
      <Compile Include="Assets\customScripts\vp_cDamageHandler.cs" />
      <Compile Include="Assets\customScripts\vp_cSimpleAITurret.cs" />
      <Compile Include="Assets\customScripts\vp_cSimpleHUD.cs" />
